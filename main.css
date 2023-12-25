@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main {
+  box-sizing: border-box;
+}
+
+/* first-page */
+.first-page {
+}
+.title {
+  min-width: 555px;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px; /* 140% */
+}
+.title span {
+  color: #0b132a;
+  font-weight: 700;
+}
+.subtitle {
+  margin: 20px 0 50px;
+  min-width: 555px;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+.subtitle span {
+  color: #4f5665;
+  font-weight: 500;
+}
+.get-started__button-container {
+  width: 250px;
+  height: 85.291px;
+}
+.get-started__button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background: #f53838;
+}
+.get-started__button-text {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 156.25% */
+}
+.illustration-1-container {
+  background-color: red;
+  width: 611.241px;
+  height: 382.444px;
+  margin: 0 746px 83px 0;
+}
+.infographics {
+  width: 1140px;
+  height: 200px;
+  background-color: #4f5665;
+}
+.divider-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  border: 1px solid #fff;
+  height: 320px;
+}
+
+/*  second-page */
+.second-page {
+}

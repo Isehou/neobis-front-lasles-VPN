@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  height: 5189px;
+  background: #e9e9e9;
+  display: flex;
+  justify-content: center;
+}
+.for-center {
+  background-color: #fff;
+  width: 1440px;
+  padding: 50px 150px;
+}

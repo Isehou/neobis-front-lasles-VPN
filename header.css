@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 126px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 36.232px;
+}
+.logo-img {
+}
+.logo-name {
+  padding: 10px;
+  color: #0b132a;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.logo-name span {
+  font-weight: bold;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  width: 370px;
+  color: #4f5665;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: default;
+  width: 40%;
+}
+.menu__text-item {
+  padding-left: 50px;
+}
+.login-page {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+}
+.sign-in__item {
+  color: #0b132a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 30px;
+}
+.sign-up__button {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid #f53855;
+}
+.sign-up__button span {
+  color: #f53855;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+}

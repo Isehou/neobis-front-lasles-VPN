@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@500&display=swap");
+.footer-blog-post {
+  color: white;
+  width: 96%;
+  height: 340px;
+  display: flex;
+}
+.logo {
+  width: auto;
+  height: 35px;
+  margin: 59px 0 0 115px;
+}
+.blog-post {
+  text-align: left;
+  margin: 50px 54px 0 135px;
+  /* background-color: red; */
+  width: 420px;
+}
+.footer-title {
+  font-size: 24px;
+}
+.footer-subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.link-title {
+  font-size: 16pt;
+  text-transform: uppercase;
+}
+.links-sectors,
+.links-navigation,
+.links-office {
+  text-align: left;
+  margin: 50px 75px 0 54px;
+}
+.link {
+  font-size: 12pt;
+  padding-top: 10px;
+}
+.link.office {
+  font-size: 14pt;
+}
