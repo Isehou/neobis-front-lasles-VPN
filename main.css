@@ -1,18 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+/* local styles */
 .main {
   margin: none;
   padding: none;
   box-sizing: border-box;
 }
+h2 {
+  width: 383.406px;
+  color: #0b132a;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px; /* 142.857% */
+}
+.subtitle {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
 
-/* first-page */
+/* Want Anything */
 .want-anything__container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.first-title {
+.want-anything__title {
   width: 555px;
   color: #0b132a;
   font-family: Rubik;
@@ -21,20 +36,14 @@
   font-weight: 500;
   line-height: 70px; /* 140% */
 }
-.title span {
+.want-anything__title span {
   color: #0b132a;
   font-weight: 700;
 }
-.subtitle {
+.want-anything__title .subtitle {
   margin: 20px 0 50px;
-  color: #4f5665;
-  font-family: Rubik;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 187.5% */
 }
-.subtitle span {
+.want-anything__title .subtitle span {
   color: #4f5665;
   font-weight: 500;
 }
@@ -122,12 +131,48 @@
   height: 320px;
   border-top: 3px solid #bbb;
 }
+
+/* we-provide */
 .we-provide__container {
+  display: flex;
   margin-top: 95px;
 }
 .illustration-2__container {
 }
 
-/*  second-page */
-.second-page {
+.we-provide__title {
+  margin-left: 190px;
+}
+.we-provide__title .subtitle {
+  margin: 20px 0 20px;
+}
+.we-provide__list {
+  padding-left: 0;
+  color: #4f5665;
+  font-size: 14px;
+  list-style: none;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+.we-provide__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+/* choose-your-plan */
+.choose-your-plan__container {
+  margin-top: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #f8f8f8 -45.04%,
+    rgba(248, 248, 248, 0) 88.56%
+  );
+}
+.choose-your-plan__title {
+  margin-top: 80px;
 }
