@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .main {
+  margin: none;
+  padding: none;
   box-sizing: border-box;
 }
 
 /* first-page */
-.first-page {
+.want-anything__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-.title {
-  min-width: 555px;
+.first-title {
+  width: 555px;
   color: #0b132a;
   font-family: Rubik;
   font-size: 50px;
@@ -22,7 +27,6 @@
 }
 .subtitle {
   margin: 20px 0 50px;
-  min-width: 555px;
   color: #4f5665;
   font-family: Rubik;
   font-size: 16px;
@@ -37,12 +41,17 @@
 .get-started__button-container {
   width: 250px;
   height: 85.291px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* box-shadow: 6px 100px 50px -20px rgba(245, 56, 56, 0.5); */
 }
 .get-started__button {
   width: 250px;
   height: 60px;
   border-radius: 10px;
   background: #f53838;
+  border: none;
 }
 .get-started__button-text {
   color: #fff;
@@ -52,16 +61,57 @@
   font-weight: 700;
   line-height: 25px; /* 156.25% */
 }
-.illustration-1-container {
-  background-color: red;
-  width: 611.241px;
-  height: 382.444px;
-  margin: 0 746px 83px 0;
+.get-started__button-shadow {
+  width: 211.829px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(27px);
+  margin-top: 40px;
+  position: absolute;
 }
-.infographics {
+.illustration-1__container {
+  width: 450px;
+  height: 382.444px;
+  margin-left: 40.76px;
+}
+.community-container {
+  display: flex;
+  justify-content: space-between;
   width: 1140px;
   height: 200px;
-  background-color: #4f5665;
+  margin-top: 100px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 100px 100px -21px rgba(34, 60, 80, 0.07);
+}
+.community__item {
+  margin: 0px 91px;
+  display: flex;
+  align-items: center;
+}
+.community__item-logo {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #ffecec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.community__item-text {
+  color: #0b132a;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px; /* 120% */
+  margin-left: 36.5px;
+}
+.community__item-text span {
+  padding-top: 5px;
+  color: #4f5665;
+  font-size: 20px;
+  font-weight: 400;
 }
 .divider-block {
   display: flex;
@@ -69,8 +119,13 @@
   align-items: center;
 }
 .divider {
-  border: 1px solid #fff;
   height: 320px;
+  border-top: 3px solid #bbb;
+}
+.we-provide__container {
+  margin-top: 95px;
+}
+.illustration-2__container {
 }
 
 /*  second-page */
