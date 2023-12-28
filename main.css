@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* local styles */
 .main {
   margin: none;
@@ -126,10 +127,11 @@ h2 {
   align-items: center;
 }
 .divider {
-  height: 320px;
-  border-top: 3px solid #bbb;
+  background-color: #eeeff2;
+  border-top: 2px solid #eeeff2;
+  width: 2px;
+  height: 125.573px;
 }
-
 /* section-2 */
 .section-2__container {
   display: flex;
@@ -156,6 +158,9 @@ h2 {
   display: flex;
   align-items: center;
   padding: 0 0 15px;
+}
+.section-2__item span {
+  margin-left: 15px;
 }
 
 /* section-3 */
@@ -365,18 +370,98 @@ h2 {
   font-weight: 400;
   line-height: 30px; /* 187.5% */
 }
-.subscribe-now__container {
+.feedback-tools {
+  width: 100%;
+  padding: 60px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback-scrolling-bar {
+  width: 135px;
+  height: 15px;
+  display: flex;
+  box-sizing: border-box;
+}
+.scrolling-item-red {
+  width: 45px;
+  height: 15px;
+  border-radius: 10px;
+  background: #f53838;
+  margin-right: 10px;
+}
+.scrolling-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: #dde0e4;
+  margin-right: 10px;
+}
+.feedback-button {
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background: #f53838;
+  border: none;
+}
+.feedback-button.btn-left {
+  border: 1px solid #f53838;
+  background: #fff;
+}
+.feedback-button.btn-left img {
+  transform: rotate(180deg);
+  background: #f53838;
+}
+
+.subscribe__container {
+  position: sticky;
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
+  text-align: left;
+  box-sizing: border-box;
   width: 1140px;
-  height: 200px;
-  margin-top: 100px;
+  height: 233px;
+  /* margin-top: 0px; */
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 100px 100px -21px rgba(34, 60, 80, 0.07);
+  padding: 58px 70px;
 }
-.subscribe-now__title {
+.subscribe__title {
+  width: 371.615px;
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.subsribe-now__button-block {
+
+.subsribe__button-block {
+  width: 250px;
+  height: 85.291px;
+  display: flex;
+  justify-content: center;
+}
+.subsribe__button {
+  margin-top: 25px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background: #f53838;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.subsribe__button-shadow {
+  width: 211.829px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(27px);
+  margin-top: 40px;
+  position: absolute;
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
-    <div class="layout-center">
+    <div class="container">
       <!-- header -->
       <header class="menu">
         <div class="logo-container">
@@ -63,8 +63,8 @@
               </div>
               <h3 class="community__item-text">90+<br /><span>Users</span></h3>
             </div>
-            <div className="divider-block">
-              <div className="divider"></div>
+            <div class="divider-block">
+              <div class="divider"></div>
             </div>
             <div class="community__item">
               <div class="community__item-logo">
@@ -74,8 +74,8 @@
                 30+<br /><span>Locations</span>
               </h3>
             </div>
-            <div className="divider-block">
-              <div className="divider"></div>
+            <div class="divider-block">
+              <div class="divider"></div>
             </div>
             <div class="community__item">
               <div class="community__item-logo">
@@ -102,19 +102,19 @@
             <ul class="section-2__list">
               <li class="section-2__item">
                 <img src="img/bx_bxs-check-circle.svg" alt="#" />
-                Powerfull online protection.
+                <span>Powerfull online protection.</span>
               </li>
               <li class="section-2__item">
                 <img src="img/bx_bxs-check-circle.svg" alt="#" />
-                Internet without borders.
+                <span>Internet without borders.</span>
               </li>
               <li class="section-2__item">
                 <img src="img/bx_bxs-check-circle.svg" alt="#" />
-                Supercharged VPN
+                <span>Supercharged VPN</span>
               </li>
               <li class="section-2__item">
                 <img src="img/bx_bxs-check-circle.svg" alt="#" />
-                No specific time limits.
+                <span>No specific time limits.</span>
               </li>
             </ul>
           </h2>
@@ -326,67 +326,83 @@
                 </div>
               </div>
             </div>
+            <div class="feedback-tools">
+              <div class="feedback-scrolling-bar">
+                <div class="scrolling-item-red"></div>
+                <div class="scrolling-item"></div>
+                <div class="scrolling-item"></div>
+                <div class="scrolling-item"></div>
+              </div>
+              <div class="feedback-buttons">
+                <button class="feedback-button btn-left">
+                  <img src="img/feedback-cards/Vector.svg" />
+                </button>
+                <button class="feedback-button btn-right">
+                  <img src="img/feedback-cards/Vector.svg" />
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="subscribe-now__container">
-            <h2 class="subscribe-now__title">
+          <div class="subscribe__container">
+            <h2 class="subscribe__title">
               Subscribe Now for Get Special Features!
               <div class="subtitle">
                 Let's subscribe with us and find the fun.
               </div>
             </h2>
-            <div class="subsribe-now__button-block">
-              <button class="subsribe-now__button">
-                <div class="subsribe-now__button-text">Subscribe Now</div>
-              </button>
+            <div class="subsribe__button-block">
+              <button class="subsribe__button">Subscribe Now</button>
+              <div class="subsribe__button-shadow"></div>
             </div>
           </div>
         </div>
       </main>
-
-      <!-- footer -->
-      <footer>
-        <div className="footer-blog-post">
-          <div className="blog-post">
-            <h2 className="footer-title">
-              <div class="logo-container">
-                <div class="logo-img">
-                  <img src="/img/Standard Collection 27.svg" alt="#" />
-                </div>
-                <div class="logo-name">Lasless<span>VPN</span></div>
-              </div>
-            </h2>
-            <div className="footer-subtitle">
-              LaslesVPN is a private virtual network that has unique features
-              and has high security.
-            </div>
-          </div>
-
-          <div className="links-sectors">
-            <h4 className="link-title">Product</h4>
-            <div className="link">Download</div>
-            <div className="link">Pricing</div>
-            <div className="link">Location</div>
-            <div className="link">Server</div>
-            <div className="link">Countries</div>
-            <div className="link">Blog</div>
-          </div>
-
-          <div className="links-sectors">
-            <h4 className="link-title">Engage</h4>
-            <div className="link">LaslessVPN ?</div>
-            <div className="link">FAQ</div>
-            <div className="link">Tutorials</div>
-            <div className="link">About Us</div>
-            <div className="link">Privacy Policy</div>
-            <div className="link">Terms of Service</div>
-          </div>
-          <div className="links-sectors">
-            <h4 className="link-title">Earn Money</h4>
-            <div className="link">Affiliate</div>
-            <div className="link">Become Partner</div>
-          </div>
-        </div>
-      </footer>
     </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer-title">
+        <div class="footer__logo-container">
+          <div class="logo-img">
+            <img src="/img/Standard Collection 27.svg" alt="#" />
+          </div>
+          <div class="logo-name">Lasless<span>VPN</span></div>
+        </div>
+        <div class="footer-subtitle">
+          <span>LaslesVPN</span> is a private virtual network that has unique
+          features and has high security.
+        </div>
+        <div class="media">
+          <div class="media-item"><img src="/img/media/1.png" /></div>
+          <div class="media-item"><img src="/img/media/2.png" /></div>
+          <div class="media-item"><img src="/img/media/3.png" /></div>
+        </div>
+        <div class="afterwords">© 2020 Lasles<span>VPN</span></div>
+      </div>
+      <div class="links_container">
+        <div class="links-sectors">
+          <h4 class="link-title">Product</h4>
+          <div class="link">Download</div>
+          <div class="link">Pricing</div>
+          <div class="link">Location</div>
+          <div class="link">Server</div>
+          <div class="link">Countries</div>
+          <div class="link">Blog</div>
+        </div>
+        <div class="links-sectors">
+          <h4 class="link-title">Engage</h4>
+          <div class="link">LaslessVPN ?</div>
+          <div class="link">FAQ</div>
+          <div class="link">Tutorials</div>
+          <div class="link">About Us</div>
+          <div class="link">Privacy Policy</div>
+          <div class="link">Terms of Service</div>
+        </div>
+        <div class="links-sectors">
+          <h4 class="link-title">Earn Money</h4>
+          <div class="link">Affiliate</div>
+          <div class="link">Become Partner</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
