@@ -1,5 +1,3 @@
-# neobis-front-lasles-VPN
-
 <h1>neobis-front-lasles-VPN</h1>
 
 Добро пожаловать на LaslesVPN - ваш надежный проводник в мире безопасного и анонимного интернет-соединения.
