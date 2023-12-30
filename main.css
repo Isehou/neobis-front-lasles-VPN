@@ -411,7 +411,7 @@ h2 {
 }
 .feedback-button.btn-left img {
   transform: rotate(180deg);
-  background: #f53838;
+  background-color: #f53838;
 }
 
 .subscribe__container {
